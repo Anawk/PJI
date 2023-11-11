@@ -1,0 +1,167 @@
+
+  .container {
+    max-width: 80%;
+    text-align: center;
+    color: white; /* Cor do texto */
+  }
+
+.image-container {
+    width: 80%; /* largura da imagem */
+    height: auto; /* altura da imagem */
+    margin: 0 auto; /* margem superior e inferior da imagem */
+    overflow: hidden; /* esconde qualquer parte da imagem que ultrapasse a área definida */
+}
+
+.image-container img {
+    width: 100%; /* largura da imagem */
+    height: auto; /* altura da imagem */
+    object-fit: cover; /* redimensiona a imagem para cobrir toda a área do contêiner, cortando partes excessivas */
+}
+
+h1{
+    font-size: 80px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    text-align: center;
+}
+
+
+dl{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 90%;
+    left: 25%;
+    
+}
+
+dd{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 10px;
+    
+    
+}
+dt{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #D663AD;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.objetivo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('Imagens/fundoR.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.objetivo-img{
+    width: 70%; /* Alterando para largura 100% para ocupar toda a largura da div 'objetivo' */
+  height: auto; /* Mantendo a proporção da imagem */
+}
+
+.investimentos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.tipos-img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.inv{
+    position: relative;
+}
+
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+   
+ 
+}
+header li {
+    margin-right: 20px;
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5rem;
+    font-family: 'Inter', sans-serif;
+}
+
+#inv,#pla,#eco, #mot, #plj, #sob{
+    padding-top: 140px;
+}
+
+.i {
+font-size: 24px;
+font-weight: bold;
+color: white;
+font-family: 'Inter', sans-serif;
+
+}
+
+.investimento-texto{
+    text-align: justify;
+    font-size: 10px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+header {
+    top: 0;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    background-color: #8F339A;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    justify-content: center;
+}
+
+.container-img{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.investimento-img{
+    max-width: 35%;
+    margin-right: 20px;
+
+}
+
+.investimento-texto{
+    text-align: justify;
+    font-size: 18px;
+    color: white;
+    flex: 1;
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+   
+}
