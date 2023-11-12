@@ -1,4 +1,7 @@
 
+html {
+    scroll-behavior: smooth;
+}
   .container {
     max-width: 80%;
     text-align: center;
@@ -26,10 +29,10 @@ h1{
 
 
 dl{
-    text-align: center;
+    text-align: justify;
     color: white;
     position: absolute;
-    top: 90%;
+    top: 95%;
     left: 25%;
     
 }
@@ -48,6 +51,7 @@ dt{
     color: #D663AD;
     font-size: 24px;
     font-weight: bold;
+    text-align: center;
 
 }
 
@@ -65,6 +69,7 @@ dt{
 .objetivo-img{
     width: 70%; /* Alterando para largura 100% para ocupar toda a largura da div 'objetivo' */
   height: auto; /* Mantendo a proporção da imagem */
+  border-radius: 10px ;
 }
 
 .investimentos{
@@ -107,7 +112,7 @@ header a {
     font-family: 'Inter', sans-serif;
 }
 
-#inv,#pla,#eco, #mot, #plj, #sob{
+#inv,#pla,#eco, #mot, #plj, #sob, #fer, #dif, #imp{
     padding-top: 140px;
 }
 
@@ -116,6 +121,7 @@ font-size: 24px;
 font-weight: bold;
 color: white;
 font-family: 'Inter', sans-serif;
+text-align: center;
 
 }
 
@@ -133,7 +139,9 @@ header {
     height: 40px;
     width: 100%;
     position: fixed;
-    background-color: #8F339A;
+    background: linear-gradient(to right, #F83A3A, #F13DD4, #7000FF);
+            color: white;
+            
     display: flex;
     align-items: center;
     z-index: 1;
@@ -141,16 +149,18 @@ header {
 }
 
 .container-img{
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .investimento-img{
-    max-width: 35%;
-    margin-right: 20px;
-
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+   
 }
 
 .investimento-texto{
@@ -162,6 +172,197 @@ header {
 
 .conteudo{
     display: flex;
+     flex-direction: column;
+}
+
+.planilha{
+    float: left;
+    margin-left: 10px;
+}
+
+table{
+    width: 40%;
+    margin: 20px auto;
+}
+
+td{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.conteudo-economia{
+    display: flex;
+     flex-direction: column;
+}
+
+.economia{
+    position: relative;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    height: 100vh;
+    background-image: url('Imagens/economias.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.economia-img{
+    width: 70%; /* Alterando para largura 100% para ocupar toda a largura da div 'objetivo' */
+    height: auto; /* Mantendo a proporção da imagem */
+    border-radius: 10px ;
+}
+
+.eco{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.texto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 18px;
+    text-align: justify;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dl{
+    text-align: justify;
+    color: white;
+    position: absolute;
+    top: 375%;
+    left: 49%;
+}
+
+
+.waren-img{
+    float: left;
+    width: 20%;
+    margin-right: 20px;
+    border-radius: 90px;
+    max-width: 100%;
+}
+
+
+.motivacao{
+  max-width: 100;
+  max-height: 100%;
+}
+
+.moti{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.mot1{
+   text-align: center;
+}
+
+.motivacao1{
+    max-width: 100;
+    max-height: 100%;
    
+}
+
+.plan{
+    font-size: 24px;
+font-weight: bold;
+color: white;
+font-family: 'Inter', sans-serif;
+text-align: center;
+}
+
+.plan{
+    font-size: 32px;
+    font-weight: bold;
+    color: #380C60;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.dll{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 18px;
+    max-width: 900px;
+    top: 570%;
+    text-align: center;
+}
+
+.texto-plan{
+    text-align: justify;
+}
+
+.texto-plan1{
+    text-align: justify;
+}
+
+.pink-title {
+    color: #ff69b4; 
+}
+
+.dif{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ff69b4;
+    font-size: 24px;
+    max-width: 900px;
+
+    text-align: center;
+}
+
+
+
+.imp{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #003f88;
+    font-size: 29px;
+    max-width: 900px;
+    text-align: center;
+}
+
+.roxo-title {
+    color: #003f88; 
+}
+
+.textover{
+    color: #FF0000;
+    text-align: justify;
+}
+
+.div-logo{
+    text-align: center;
+}
+
+.logo{
+    width: 550px;
+    height: auto;
+}
+
+.vermelho{
+    color: red;
+    font-size: 25px;
+}
+
+.sobre{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    font-size: 29px;
+    text-align: center;
+}
+
+body{
+    text-align: center;
+}
+
+.sobrenos-img{
+    display: block;
+    margin: 0 auto;
 }
